@@ -1,10 +1,11 @@
-## The Python Random module is a built-in feature of Python. At its core, a random function in Python generates pseudo-random numbers – these numbers may appear random, but they are generated using a deterministic algorithm. This module facilitates various random actions, including generating random numbers and selecting random values from lists or strings.
-
-
+# The Python Random module is a built-in feature of Python. 
+# At its core, a random function in Python generates pseudo-random numbers – these numbers may appear random, but they are generated using a deterministic algorithm.
+#  This module facilitates various random actions, including generating random numbers and selecting random values from lists or strings.
 
 import random
 option = ["Rock", "Paper", "Scissors"]
 computer = random.choice(option)
+# list of string provided from random
 player = False
 cpu_score = 0
 player_score = 0
@@ -37,5 +38,5 @@ while True:
     elif player=='End':
         print("Final Scores:")
         print(f"CPU:{cpu_score}")
-        print(f"Plaer:{player_score}")
+        print(f"Player:{player_score}")
         break
