@@ -69,11 +69,9 @@ and  insert the commands to run: <br><br>
 ``/`` <br>
 means its in the main folder:
 
-* <b> /Data </b> - Folder to store data and ERD images``md``
 * <b> create_tables.py </b> - drops old tables (if exist) ad creates/recreates new tables
 * <b> etl.py </b> - Inserts JSON data into the tables in Redshift from S3 t
 * <b> sql_queries.py </b> - SQL statements using Python,  for CREATE, DROP, COPY and INSERT tables
-* <b> dhw.cfg </b> - Info about Redshift, IAM and S3 (hidden)
 _________________________________________________________________
 
 #### References
